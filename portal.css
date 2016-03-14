@@ -1,0 +1,98 @@
+/***** themesimages ******/
+
+div#themesimage img
+{
+    width: 460px;
+}
+
+/***** portalimages *****/
+
+div#portalimage img
+{
+    width: 460px;
+}
+
+/****** related content column ******/
+
+div.relatedbox div.banner
+{
+    margin: 0 0 10px 0;
+}
+div.relatedbox div.banner img
+{
+    display: block;
+}
+
+/****** content columns ******/
+
+div.contentareawide div.content div.column
+{
+    width: 209px;
+    border-left: solid 1px #dadee1;
+    padding-left: 10px;    
+}
+div.contentareawide div.content div#themesimage, div.contentareawide div.content div#portalimage
+{   
+    height: 230px;
+    width: 460px;
+    margin: 0 20px 20px 0;
+}
+div.contentareawide div.links
+{
+    border-top: none; 
+    margin-bottom: 24px;
+}
+div.contentareawide div.links h3
+{
+    background-image: none;
+    padding: 0;
+}
+div.contentareawide div.links h3.linked, div.contentareawide div.links h3 
+{   
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    color: #0028a5;
+    font-size: 1.3em;
+    margin-bottom: 6px;
+}
+div.contentareawide div.links h3.linked a /*new bg-image needed due to differences between palatino system fonts on mac and PC */
+{   
+    color: #0028a5;
+    padding: 0 1em 0 0;
+    background-image:url(/uzh/authoring/images/arrow_right_title.png);
+    background-position: right bottom;
+}
+*+html div.contentareawide div.links h3.linked a /* hack for IE7 */
+{
+    display: inline-block;
+}
+div.contentareawide div.links h3.linked a:visited
+{
+    text-decoration: none;
+    color: #0028a5;
+}
+div.contentareawide div.links h3.linked a:hover
+{
+    text-decoration: underline;
+    color: #dc6027;
+}
+div.contentareawide div.links p
+{
+    background-image: none;
+    font-size: 0.95em;
+    line-height: 1.3em;
+    padding-bottom: 5px;
+}
+div.contentareawide div.links ul li
+{
+    background-image: none;
+    padding:0;
+    font-size: 0.95em;
+    line-height: 1.35em;
+}
+div.contentareawide div.links ul li a
+{
+    padding: 0 0 0 13px;
+    background-position: left top;
+}
+
+

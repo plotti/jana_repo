@@ -1,0 +1,288 @@
+
+
+/****** common elements ******/
+
+h2
+{
+    margin: 0;
+}
+div.contcol1 h2, div.relatedbox h2, div.column h2
+{
+    border: 1px solid #dadee2;
+    background-color:#edeff1;
+    padding:4px 9px 2px 9px;
+    color:#0028a5;
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-weight:bold;
+    font-size:1.32em;
+    line-height:1.3em;
+    margin-bottom: 10px;
+    /*height: 28px;*/
+}
+div.contcol1 h2
+{
+    font-size:inherit;
+}
+
+/****** header elements ******/
+
+div#headerarea
+{
+    height: 115px;
+}
+
+/****** entry box ******/
+
+div#entrybox
+{
+    margin-bottom: 20px;    
+    width: 700px;
+    height: 295px;
+    background-color: #dadde2;
+}
+div.contentareawide div.content div#entryimage
+{   
+    height: 295px;
+    margin: 0 240px 0 0;
+}
+div#entryimage img
+{
+    width: 460px;
+}
+div#entrythemes
+{
+    width: 210px;
+    height: 275px;
+    float: right;
+    padding: 20px 10px 0px 20px;
+}
+div#entrythemes ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#entrythemes li
+{
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+div#entrythemes li.invisible
+{
+    display:none;
+}
+div#entrythemes li a
+{
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    color:#0028a5;
+    font-size: 2.1em;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+div#entrythemes li li
+{
+    line-height: 1.2em;
+    /*padding: 2px 2px 14px 0px;*/
+    padding: 0.2em 0.2em 1.2em 0;
+}
+*+html div#entrythemes li li
+{
+    padding: 0.7em 0.2em 1.2em 0;
+}
+div#entrythemes li li a, div#entrythemes li li a:visited
+{
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 0.93em;
+    letter-spacing: 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    padding-right: 0px;
+    background-position: left 0px;
+}
+*+html div#entrythemes li li a, *+html div#entrythemes li li a:visited
+{
+    display: inline-block;
+}
+div#entrythemes li li a:hover
+{
+    text-decoration: underline;
+    color: #dc6027;
+}
+
+/****** direct links ******/
+
+div#directlinks
+{
+    border: 1px solid #dadee2;
+    background-color:#edeff1;
+    padding: 0 0 9px 1px;
+    margin: 0 0 10px 0;
+ }
+div#directlinks h2
+{
+    border: none;
+    padding-top: 6px;
+    margin-bottom: 3px;
+}
+div#directlinks ul
+{
+    list-style-type:none;
+    padding:0;
+    margin: 0 0 14px 0;
+}
+div#directlinks ul li
+{
+    margin-bottom: -0.2em;
+    padding: 0;
+}   
+div#directlinks ul li a
+{
+    text-decoration: none;
+    color: #000;
+    background-image:url(/uzh/authoring/images/arrow_right.png);
+    background-position: 8px 2px;
+    padding:3px 0 3px 23px;
+    background-repeat: no-repeat;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+div#directlinks ul li a:hover
+{
+    text-decoration: underline;
+    color: #dc6027;
+}
+
+/****** faculty select ******/
+
+div.relocator
+{
+    line-height: 1.3em;
+    padding: 0 0 6px 10px;
+    margin: 0;
+}
+div.relocator h3
+{
+    padding:3px 0 7px 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+div.relocator select
+{
+    line-height: 1.3em;
+    font-size: 0.95em;
+    width: 160px;
+    margin:0 5px 0 0;
+}
+div.relocator input#submit
+{
+    line-height: 1.3em;
+    font-size: 0.95em;
+    width: 35px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+/****** social media *****/
+
+div#socialmedia
+{
+    background-color: #EDEFF1;
+    
+    border: 1px solid #DADEE2;
+    margin: 0 0 10px;
+    padding: 0 0 9px 1px;
+}
+div#socialmedia h2 
+{
+    border: medium none;
+    margin-bottom: 3px;
+    padding-top: 6px;
+}
+div#socialmedia #icons 
+{
+    padding: 5px 0 4px 7px;
+}
+div#socialmedia #icons a 
+{
+    cursor: pointer;
+    margin: 0;
+    padding: 0 3px;
+}
+
+/****** content ******/
+
+div.contentareawide div.content div.column
+{
+    width: 220px;
+    border: none;
+    padding: 0;
+}
+
+/****** rss reader, teaser and banner ******/
+
+div.content div.column div.rssReader
+{
+    margin-bottom: 10px;
+}
+div.content div.column div.rssReader h3, div.rssReader h3
+{
+    background-color:#edeff1;
+    padding:4px 9px 3px;
+    color:#0028a5;
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-weight:bold;
+    font-size:1.4em;
+    line-height:1.3em;
+    margin-bottom: 0px;
+} 
+div.rssReader.uzh ul li a.block.moreLink:visited
+{
+    color: #000000;
+    background-color:#ffffff;
+}
+div.rssReader.uzh ul li a.block.moreLink:hover, div.rssReader.uzh ul li a.block.moreLink:active
+{
+    background-color:#ffffff;
+    color: #dc6027;
+    text-decoration:underline;
+}
+div.banner
+{
+    margin: 0 0 10px 0;
+}
+
+/****** emergency message ******/
+
+div.teaser.emergency 
+{
+    background-color:#ea0000;
+    border:1px solid #ea0000;
+    color:#FFFFFF;
+}
+div.teaser.emergency h3 
+{
+    color: #FFFFFF;
+}
+div.teaser.emergency a 
+{
+    color: #FFFFFF;
+    background-image:url(/uzh/authoring/images/arrow_right_emergency.png)
+}
+div.teaser.emergency a:hover
+{
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+/****** share buttons ******/
+
+div#footer li.share 
+{
+    padding: 0 4px 0 0;
+}
+
+

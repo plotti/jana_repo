@@ -1,0 +1,53 @@
+
+
+/****** header navigation ******/
+
+div#headernav
+{
+    color:#000000;
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 1.2em;
+    margin: 0;
+    padding-left: 13px;
+    padding-top: 19px;
+    /*float:left*/
+}
+div#headernav a:link
+{
+    color:#000000;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 7px;
+    text-decoration: none;
+    border-bottom:#fff solid 4px;
+}
+div#headernav a:visited
+{
+    color:#000000;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 7px;
+    text-decoration: none;
+    border-bottom:#fff solid 4px;
+}
+div#headernav a:focus, div#headernav a:hover
+{
+    color:#dc6027;
+    text-decoration: none;
+    border-bottom:#fff solid 4px;
+}
+div#headernav a.active
+{
+    color:#0028a5;
+    text-decoration: none;
+    border-bottom:#0028a5 solid 4px;
+}
+div#headernav a.namedanchor, div#headernav a.namedanchor:hover
+{
+    border-bottom: none;
+}
